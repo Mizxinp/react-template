@@ -1,0 +1,12 @@
+/node_modules
+/build
+/dist
+/gulp_entry
+*.log
+.DS_Store
+*.bk
+*.iml
+/.idea
+**/test/
+*-lock.json
+*.lock

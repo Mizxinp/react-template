@@ -1,0 +1,12 @@
+# Browsers that we support
+last 3 versions
+> 1% in CN
+Chrome >= 49
+Firefox >= 50
+Edge >= 15
+Safari >= 9
+QQAndroid > 1
+ios >= 8
+ie >= 9
+not op_mob > 0
+not op_mini > 0

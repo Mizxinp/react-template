@@ -1,0 +1,20 @@
+{
+    "editor.tabSize": 4,
+    "editor.wordWrap": "off",
+    "editor.detectIndentation": false,
+    "prettier.tabWidth": 4,
+    "cSpell.language": "en,en-GB,en-US",
+    "typescript.showUnused": false,
+    "javascript.showUnused": false,
+    "cSpell.words": [
+        "Acography",
+        "imgs",
+        "intell"
+    ],
+    "codeTemplateTool.templatesPath": "{workspace}/.vscode/templates",
+    "codeTemplateTool.variable.leftBoundary": "$_",
+    "codeTemplateTool.variable.rightBoundary": "_$",
+    "prettier.singleQuote": true,
+    "prettier.semi": false,
+    "vetur.format.options.tabSize": 4
+}
