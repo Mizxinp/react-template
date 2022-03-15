@@ -1,7 +1,6 @@
 import React from 'react'
 import { Button } from 'antd'
 import { Toast, Icon } from 'elephant-ui'
-import { connect } from 'dva'
 import styles from './TestPage.scss'
 
 function TestPage(props) {
@@ -14,10 +13,10 @@ function TestPage(props) {
             <div>
                 <Icon name="iconright" size={16} />
             </div>
-            <div className={styles.flexTest}>flex</div>
+            <div className={styles.flexTest}>flex4</div>
             <i className="iconfont iconright" />
         </div>
     )
 }
 
-export default connect(({ test }) => ({ test }))(TestPage)
+export default TestPage

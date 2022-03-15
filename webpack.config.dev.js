@@ -3,7 +3,7 @@ const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const WebpackBar = require('webpackbar')
 const { merge } = require('webpack-merge')
-const webpackBasicConfig = require('./webpack.config.base.js')
+const webpackBasicConfig = require('./webpack.config.base')
 
 module.exports = env => merge(webpackBasicConfig(env), {
     mode: 'development',
@@ -23,7 +23,7 @@ module.exports = env => merge(webpackBasicConfig(env), {
     module: {
         rules: [
             {
-                test: /\.js$/,
+                test: /\.(ts|tsx|js|jsx)$/,
                 use: [
                     {
                         loader: 'babel-loader',
