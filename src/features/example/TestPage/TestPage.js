@@ -13,7 +13,7 @@ function TestPage(props) {
             <div>
                 <Icon name="iconright" size={16} />
             </div>
-            <div className={styles.flexTest}>flex4</div>
+            <div className={styles.flexTest}>flex2</div>
             <i className="iconfont iconright" />
         </div>
     )
