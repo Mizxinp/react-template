@@ -8,8 +8,16 @@ function TestPage(props) {
     return (
         <div className={styles.container}>
             TestPage12
-            <Button style={{ marginRight: 20 }} type="primary" onClick={() => props.history.push('/test/2')}>点击</Button>
-            <Button type="primary" onClick={() => Toast.info('hhahah')}>elephant toast</Button>
+            <Button
+                style={{ marginRight: 20 }}
+                type="primary"
+                onClick={() => props.history.push('/test/2')}
+            >
+                点击
+            </Button>
+            <Button type="primary" onClick={() => Toast.info('hhahah')}>
+                elephant toast
+            </Button>
             <div>
                 <Icon name="iconright" size={16} />
             </div>

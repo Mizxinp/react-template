@@ -32,6 +32,7 @@ module.exports = env => merge(webpackBasicConfig(env), {
                         },
                     },
                 ],
+                exclude: /node_modules/,
             },
             {
                 test: /\.s(a|c)ss$/,

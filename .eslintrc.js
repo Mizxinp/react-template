@@ -4,7 +4,7 @@ module.exports = {
     parserOptions: {
         ecmaFeatures: {
             jsx: true
-        }
+        },
     },
     parser: 'babel-eslint',
     settings: {
@@ -28,7 +28,7 @@ module.exports = {
         // 只能用 array index 作为列表 key 值。
         'react/no-array-index-key': 'warn',
         'react/destructuring-assignment': ['off'],
-        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", "ts", "tsx"] }],
         'react-hooks/exhaustive-deps': 'warn',
         'react/jsx-props-no-spreading': ['off'],
         'linebreak-style': [0, 'error', 'windows']

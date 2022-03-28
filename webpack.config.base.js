@@ -10,7 +10,7 @@ module.exports = (env = {}) => ({
         publicPath: '/',
     },
     resolve: {
-        extensions: ['.js', '.jsx'],
+        extensions: ['.ts', '.tsx', '.js', '.jsx'],
         alias: {
             COMMON: path.join(__dirname, 'src/common'),
             FEAT: path.join(__dirname, 'src/features'),
